@@ -1,18 +1,40 @@
 .sendForm {
-
+    display: grid;
+    grid-template-areas:
+    'txtarea btn';
+    grid-template-columns: auto 100px;
+    margin: 10px 10px 10px 10px;
+    grid-column-gap: 40px;
+    padding: 50px 50px 50px 50px;
 }
 
 .textarea {
-
+    grid-area: txtarea;
+    border-color: darkgray;
+    background-color: lavender;
+    box-sizing: border-box;
+    min-height: 30px;
+    resize: none;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
 }
 
 .button {
-
+    grid-area: btn;
+    background-color: #0059b3;
+    color: #DDEEFF;
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: transparent;
 }
 
 .button:hover {
-
+    background-color: #0066cc;
+    color: #DDEEFF;
 }
 .button:active {
-
+    background-color: #DDEEFF;
+    color: #212A34;
 }
