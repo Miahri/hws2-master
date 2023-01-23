@@ -1,35 +1,84 @@
 .greetingForm {
+    display: grid;
+    justify-items: start;
+    grid-template-areas:
+    'txt'
+    'container'
+    'greeting';
+    grid-template-rows: 30px 50px 30px;
+    margin: 5px 5px 5px 5px;
+    padding: 20px 0 0 20px;
 }
 
 .inputAndButtonContainer {
+    grid-area: container;
+    display: grid;
+    grid-template-areas:
+    'input btn';
+    grid-template-columns: 300px 70px;
+    grid-column-gap: 10px;
 }
 
 .error {
+    color: #cc0000;
+    font-size: 15px;
 }
 
 .input {
+    grid-area: input;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    resize: both;
+    border-color: darkgray;
 }
 
 .input:focus {
+    border-color: darkgray;
+    outline: none;
 }
 
 .errorInput {
+    grid-area: input;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    resize: both;
+    border-color: #cc0000;
+    outline: none;
 }
 
 .button {
+    grid-area: btn;
+    background-color: #0059b3;
+    color: #DDEEFF;
+    font-weight: bold;
+    border-color: transparent;
+    width: 100%;
+    height: 30px;
 }
 
 .button:focus {
+    background-color: #0066cc;
+    color: #DDEEFF;
 }
 
 .button:active {
+    background-color: #DDEEFF;
+    color: #212A34;
 }
 
 .button:disabled {
+    background-color: cornflowerblue;
 }
 
 .text {
+    grid-area: txt;
+    font-size: 15px;
+    color: darkgray;
 }
 
 .greeting {
+    grid-area: greeting;
+    font-size: 15px;
 }
