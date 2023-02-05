@@ -1,20 +1,47 @@
 .input:focus {
+    border: darkgray 1px solid;
+    outline: none;
 }
 
 .input {
+    grid-area: si;
+    width: 300px;
+    box-sizing: border-box;
+    resize: both;
+    border-radius: 5px;
+    border: darkgray 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
 
 .inputWrapper {
+    display: grid;
+    grid-template-areas:
+    'e'
+    'si';
+    grid-template-rows: 20px 30px;
+    margin: 5px 5px 5px 5px;
+    padding: 0 0 20px 20px;
 }
 
 .superInput {
+    border: darkgray 1px solid;
+    outline: none;
 }
 
 .errorInput {
+    border: red 1px solid;
+    outline: none;
 }
 
 .errorInput:focus {
+    border: red 1px solid;
+    outline: none;
 }
 
 .error {
+    grid-area: e;
+    color: red;
+    font-size: 12px;
 }
