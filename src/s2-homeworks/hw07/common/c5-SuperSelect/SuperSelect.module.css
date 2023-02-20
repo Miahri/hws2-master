@@ -1,9 +1,19 @@
 .select {
+    grid-area: input;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    resize: both;
+    border-color: darkgray;
+    border-radius: 5px;
 }
 
 .select:focus {
+    outline: 0.15em solid dodgerblue;
+    background: transparent;
 }
 
 
 .option:hover {
+
 }
