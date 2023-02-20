@@ -1,11 +1,17 @@
 .spanBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .span {
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 .input {
 }
 
 .pen {
+    font-size: 20px;
 }
