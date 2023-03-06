@@ -7,7 +7,8 @@ type ActionType =
 export const homeWorkReducer = (state: Array<UserType>, action: ActionType): Array<UserType> => { // need to fix any
     switch (action.type) {
         case 'sort': { // by name
-            let sortedState = state.sort((a: UserType, b: UserType) => {
+            let sortedState = [...state];
+            sortedState = sortedState.sort((a: UserType, b: UserType) => {
                 if(a.name < b.name) {
                     return -1
                 }
@@ -24,8 +25,8 @@ export const homeWorkReducer = (state: Array<UserType>, action: ActionType): Arr
             return sortedState;
         }
         case 'check': {
-            let stateCopy = {...state};
-            return stateCopy.filter((u: UserType) => u.age > 18).sort().reverse() // need to fix
+            let stateCopy = [...state];
+            return stateCopy.filter((u: UserType) => u.age > 18).sort().reverse()// need to fix
         }
         default:
             return state
