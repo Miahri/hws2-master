@@ -1,23 +1,45 @@
 .item {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
 
 .item:last-of-type {
 }
 
 .users {
+    border-collapse: collapse;
+    width: 800px;
 }
 
 .buttonsContainer {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px 0;
 }
 
 .container {
+    padding: 15px 45px;
 }
 
 .thead {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: darkgrey;
+    font-weight: bold;
 }
 
 .nameCol {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
 
 .ageCol {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }

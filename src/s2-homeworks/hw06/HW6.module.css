@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 15px;
+    padding: 15px 45px;
 }
 
 .editableSpanContainer {
     width: 350px;
-    padding: 15px;
+    padding: 15px 45px;
 }
