@@ -35,7 +35,7 @@ const HW10 = () => {
         <div id={'hw10'}>
             <div className={s2.hwTitle}>Homework #10</div>
 
-            <div className={s2.hw10}>
+            <div className={s2.hw10_11}>
                 {isLoading ? (
                     <div id={'hw10-loading'}>
                         <Loader/>
