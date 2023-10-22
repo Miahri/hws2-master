@@ -7,7 +7,7 @@
     'greeting';
     grid-template-rows: 30px 50px 30px;
     margin: 5px 5px 5px 5px;
-    padding: 20px 0 0 20px;
+    padding: 20px 0 0 50px;
 }
 
 .inputAndButtonContainer {
@@ -32,6 +32,9 @@
     resize: both;
     border-color: darkgray;
     border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 
 .input:focus {

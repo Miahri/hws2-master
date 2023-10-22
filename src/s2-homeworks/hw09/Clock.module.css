@@ -3,25 +3,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 15px 45px;
     color: white;
 }
 
 .clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 50px;
 }
 
 .watch {
     width: 350px;
-    padding: 15px 45px 10px 45px;
     font-size: large;
 }
 
 .watch strong {
+    padding: 15px 0;
 }
 
 .more {
     width: 350px;
-    padding-left: 45px;
     font-size: small;
     opacity: 0.5;
+    padding: 0 0 20px 0;
 }

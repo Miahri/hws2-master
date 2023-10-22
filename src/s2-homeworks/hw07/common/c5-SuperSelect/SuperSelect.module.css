@@ -6,6 +6,7 @@
     resize: both;
     border-color: darkgray;
     border-radius: 5px;
+    padding-left: 10px;
 }
 
 .select:focus {

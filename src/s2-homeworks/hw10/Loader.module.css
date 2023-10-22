@@ -1,10 +1,2 @@
 .loader {
-    background-image: url("./loader.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 65px;
-    width: 65px;
-    position: absolute;
-    padding: 0px 45px;
 }
