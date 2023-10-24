@@ -1,27 +1,54 @@
+.hw15 {
+    border: 1px solid #D9D9D9;
+    margin: 0 0 30px 0;
+    padding: 25px 50px;
+    height: 100%;
+}
+
 .tech {
-    width: 50vw;
+    width: 300px;
+    text-align: left;
 }
 
 .developer {
-
+    width: 300px;
+    text-align: left;
 }
 
 .techHeader {
-    width: 50vw;
+    width: 300px;
+    text-align: left;
 }
 
 .developerHeader {
-
+    width: 300px;
+    text-align: left;
 }
 
 .row {
+    width: 600px;
     display: flex;
+    flex-direction: row;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
 
 .rowHeader {
     display: flex;
+    flex-direction: row;
+    width: 600px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: darkgrey;
+    font-weight: bold;
 }
 
 .loading {
-
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
 }
